@@ -1,4 +1,4 @@
-# CPPND: Capstone ROS2 Simulator
+# CPPND: Capstone ROS2 Hungerbot Simulator
 
 This project simulates a system using ROS2 API's for topics, nodes, publishers and subscribers. A simplified, simulated [Turtlebot](https://www.turtlebot.com/) gobbles up food using its single laser sensor. The system is displayed in realtime using [SDL](https://www.libsdl.org/). It reimplements ROS2 API'S, not using any code from ROS, and doesn't attempt to simulate ROS packages or launch files. I focus on using C++'s concurrency and memory management features to implement ROS2-like nodes.
 
