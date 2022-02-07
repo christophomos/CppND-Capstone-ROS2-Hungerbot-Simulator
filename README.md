@@ -1,12 +1,8 @@
-# CPPND: Capstone Snake Game Example
+# CPPND: Capstone ROS2 Simulator
 
-This is a starter repo for the Capstone project in the [Udacity C++ Nanodegree Program](https://www.udacity.com/course/c-plus-plus-nanodegree--nd213). The code for this repo was inspired by [this](https://codereview.stackexchange.com/questions/212296/snake-game-in-c-with-sdl) excellent StackOverflow post and set of responses.
+This project simulates a system using ROS2 API's for topics, nodes, publishers and subscribers. A simplified, simulated [Turtlebot](https://www.turtlebot.com/) gobbles up food using its single laser sensor. The system is displayed in realtime using [SDL](https://www.libsdl.org/). It reimplements ROS2 API'S, not using any code from ROS, and doesn't attempt to simulate ROS packages or launch files. I focus on using C++'s concurrency and memory management features to implement ROS2-like nodes.
 
-<img src="snake_game.gif"/>
-
-The Capstone Project gives you a chance to integrate what you've learned throughout this program. This project will become an important part of your portfolio to share with current and future colleagues and employers.
-
-In this project, you can build your own C++ application or extend this Snake game, following the principles you have learned throughout this Nanodegree Program. This project will demonstrate that you can independently create applications using a wide range of C++ features.
+The starter repo for this project, which provides the basis for the visualization code I used, can be found at [udacity/CppND-Capstone-Snake-Game](https://github.com/udacity/CppND-Capstone-Snake-Game). The code for that repo was inspired by [this](https://codereview.stackexchange.com/questions/212296/snake-game-in-c-with-sdl) StackOverflow post.
 
 ## Dependencies for Running Locally
 * cmake >= 3.7
@@ -28,7 +24,7 @@ In this project, you can build your own C++ application or extend this Snake gam
 1. Clone this repo.
 2. Make a build directory in the top level directory: `mkdir build && cd build`
 3. Compile: `cmake .. && make`
-4. Run it: `./SnakeGame`.
+4. Run it: `./hungerbot`.
 
 
 ## CC Attribution-ShareAlike 4.0 International
