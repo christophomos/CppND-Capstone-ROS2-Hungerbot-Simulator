@@ -2,7 +2,7 @@
 
 This project simulates a system using ROS2 API's for topics, nodes, publishers and subscribers. A simplified, simulated [Turtlebot](https://www.turtlebot.com/) gobbles up food using its single laser sensor. The system is displayed in realtime using [SDL](https://www.libsdl.org/). It reimplements ROS2 API'S, not using any code from ROS, and doesn't attempt to simulate ROS packages or launch files. I focus on using C++'s concurrency and memory management features to implement ROS2-like nodes.
 
-The starter repo for this project, which provides the basis for the visualization code I used, can be found at [udacity/CppND-Capstone-Snake-Game](https://github.com/udacity/CppND-Capstone-Snake-Game). The code for that repo was inspired by [this](https://codereview.stackexchange.com/questions/212296/snake-game-in-c-with-sdl) StackOverflow post.
+The starter repo for this project, which provides the basis for the visualization code I used, can be found at [udacity/CppND-Capstone-Snake-Game](https://github.com/udacity/CppND-Capstone-Snake-Game). The code for that repo was inspired by [this](https://codereview.stackexchange.com/questions/212296/snake-game-in-c-with-sdl) StackOverflow post. This is my capstone project for [Udacity's C++ Nanodegree](https://www.udacity.com/course/c-plus-plus-nanodegree--nd213), using knowledge I'm gaining from the [The Construct's Robotics Developer Master Class](https://www.theconstructsim.com/robotics-developer/), which I will complete in August 2022.
 
 ## Dependencies for Running Locally
 * cmake >= 3.7
